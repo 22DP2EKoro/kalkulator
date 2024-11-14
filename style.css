@@ -1,0 +1,127 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    user-select: none;
+    background: grey;
+}
+
+.container {   
+    margin-left: 1.8em;
+    padding: 30px;
+    border-radius: 20px;
+    background-color:black;
+}
+
+.content {
+    width: 50%;
+    margin-top: 1.7em;
+}
+
+.row button {
+    width: 100px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    background-color: white;
+}
+
+.row button:hover {
+    cursor: pointer;
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #fff;
+    background: #fff;
+}
+
+.display #screen {
+    margin-bottom: .5em;
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    background-color: green;
+}
+
+eval {
+    background: #33ccff;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+eval:hover {
+    box-shadow: inset 5px 5px 8px #00ace6,
+                inset -5px -5px 8px #00ace6;
+}
+
+ac {
+    background: #33cc33;
+    color: #fff;
+   
+}
+
+ac:hover {
+    box-shadow: inset 5px 5px 8px #2eb82e,
+                inset -5px -5px 8px #33cc33;
+}
+
+ce {
+    background: #ff3399;
+    color: #fff;
+}
+
+#history {
+    margin-left: 1.8em;
+    width: 340px;
+    height: 335px;
+    border-radius: 8px;
+    overflow-y: scroll;
+    font-size: 1.1em;
+    background: #33ccff;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+history h1 {
+    padding: 0px 0px;
+    font-size: 1.8em;
+}
+
+clear-history {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.delete-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+  border-box: 13px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
