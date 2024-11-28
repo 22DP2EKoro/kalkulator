@@ -7,14 +7,14 @@ body {
     align-items: center;
     min-height: 50vh;
     user-select: none;
-    background: grey;
+    background: rgb(195, 184, 184);
 }
 
 .container {   
     margin-left: 1.8em;
     padding: 30px;
     border-radius: 20px;
-    background-color:black;
+    background-color:rgb(109, 105, 105);
 }
 
 .content {
@@ -52,32 +52,32 @@ body {
     padding-right: .5em;
     background: #ecf0f3;
     border-radius: 6px;
-    background-color: green;
+    background-color: rgb(63, 166, 63);
 }
 
-eval {
+#eval {
     background: #33ccff;
     color: #fff;
     box-shadow: inset 5px 5px 8px #66d9ff,
                 inset -5px -5px 8px #00ace6;
 }
-eval:hover {
+#eval:hover {
     box-shadow: inset 5px 5px 8px #00ace6,
                 inset -5px -5px 8px #00ace6;
 }
 
-ac {
+#ac {
     background: #33cc33;
     color: #fff;
    
 }
 
-ac:hover {
+#ac:hover {
     box-shadow: inset 5px 5px 8px #2eb82e,
                 inset -5px -5px 8px #33cc33;
 }
 
-ce {
+#ce {
     background: #ff3399;
     color: #fff;
 }
@@ -95,34 +95,34 @@ ce {
     padding: 10px 20px;
 }
 
-history h1 {
+#history h1 {
     padding: 0px 0px;
     font-size: 1.8em;
 }
 
-clear-history {
+#clear-history {
     width: 100%;
     padding: 10px;
-    background-color: black;
-    color: white;
+    background-color: rgb(199, 15, 15);
+    color: rgb(255, 255, 255);
     border: none;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 22px;
     cursor: pointer;
     margin-top: 10px;
     transition: background-color 0.3s ease;
 }
 .delete-btn {
-    background-color: black;
+    background-color: rgb(251, 0, 0);
     color: white;
-    border: none;
+    border-radius: 8px;
     margin-left: 10px;
     padding: 5px 10px;
     font-size: 12px;
     cursor: pointer;
-  border-box: 13px;
+  
 }
 
 .delete-btn:hover {
-    background-color: darkred;
+    background-color: rgb(145, 99, 99);
 }
